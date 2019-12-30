@@ -1,0 +1,167 @@
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .icon-bar{
+        display: none;
+    }
+    nav ul{
+        background: #858585;
+    }
+    nav ul li{
+        margin-left: 15px;
+    }
+
+    #header-content {
+        width: 300px !important;
+    }
+    #header-content H5 {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    #header-content H2 {
+        font-size: 24px !important;
+        margin: 0;
+    }
+    #header-content H3 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .about-mid .content h3 {
+        font-size: 22px;
+    }
+    .about-mid .content p {
+        font-size: 14px;
+    }
+    .about-mid .content .bio ul li span label {
+        min-width: 58px;
+        font-size: 13px;
+    }
+    .content .bio ul li span a {
+        font-size: 12px;
+    }
+    .about-mid .social-icon Ul li.follow {
+        font-size: 20px;
+        font-weight: 600;
+        margin-right: 0px;
+    }
+    .about-mid .content .social-icon Ul li a i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 14px;
+        background: #ff4b36;
+        margin-right: 2px;
+        border: 1px solid transparent;
+    }
+
+
+    .about-mid .content .bio ul li {
+        width: 100%;
+    }
+    .carousel-item{
+        height: 350px !important;
+    }
+    .carousel-caption p {
+        font-size: 14px;
+        margin: 0px;
+        line-height: 24px;
+    }
+    .carousel-caption {
+        margin: 0px;
+    }
+    .carousel-caption {
+        bottom: 80px !important;
+        left: 5% !important;
+        right: 5% !important;
+    }
+
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .icon-bar{
+        display: none;
+    }
+    nav ul{
+        background: #858585;
+    }
+    nav ul li{
+        margin-left: 15px;
+    }
+    .about-mid .content .bio ul li {
+        width: 100%;
+        /* padding-bottom: 10px; */
+    }
+    #header-content {
+        width: 500px;
+    }
+    #header-content H2 {
+        font-size: 34px;
+    }
+    #header-content H3 {
+        font-size: 22px;
+    }
+
+    .carousel-item{
+        height: 400px !important;
+    }
+    .carousel-caption {
+        /* margin-bottom: 50px; */
+        margin: 0px;
+    }
+    .carousel-caption {
+        bottom: 70px !important;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    .navbar-brand{
+        font-size: 18px !important;
+    }
+    header ul li{
+        margin-right: 0px;
+    
+    }
+    header ul li a{
+       font-size: 15px;
+    }
+
+    .icon-bar a {
+        font-size: 16px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+      }
+
+    .about-mid .content .bio ul li {
+        width: 100%;
+        padding: 0;
+    }
+    #about-bottom h4 {
+        padding: 0px;
+    }
+    #about-bottom p {
+        padding: 0px;
+    }
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+
+
+}
+

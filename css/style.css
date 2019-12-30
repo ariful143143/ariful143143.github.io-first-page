@@ -492,6 +492,9 @@ Clients
     width: 100%;
     position: relative;
 }
+.carousel-item img {
+    width: 100%;
+}
 .carousel-item::before{
     content: '';
     position: absolute;

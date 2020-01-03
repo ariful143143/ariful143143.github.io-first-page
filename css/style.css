@@ -494,6 +494,7 @@ Clients
 }
 .carousel-item img {
     width: 100%;
+    height: 100%;
 }
 .carousel-item::before{
     content: '';
